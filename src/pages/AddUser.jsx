@@ -15,19 +15,6 @@ class AddUser extends React.Component {
         super(props)
         this.state = {
             infoUser: {
-                surname: 'Кораблев',
-                name: 'Алексей',
-                patronymic: 'Васильевич',
-                position: 3,
-                dateOfBirth: '1997-02-22',
-                gender: 1,
-                dateEmployment: '2021-04-15',
-                dateOfDismissal: '',
-                drivingLicence: true,
-                colleagues: []
-
-            },
-            infoUser2: {
                 surname: '',
                 name: '',
                 patronymic: '',

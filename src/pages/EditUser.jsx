@@ -16,7 +16,7 @@ class EditUser extends React.Component {
         super(props)
         this.state = {
             infoUser: {
-                surname: null,
+                surname: '',
                 name: '',
                 patronymic: '',
                 position: 0,
